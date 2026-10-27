@@ -14,7 +14,7 @@ delete sections that don't apply rather than leaving them empty.
 
 **Status:** Draft | In review | Accepted
 
-## Overview (optional)
+## Overview
 What is the purpose of this document and who is it for? Should the reader know
 anything before diving in? Is there a targeted audience (technical vs
 non-technical)? This section scopes the document itself, not the project.
@@ -24,7 +24,7 @@ Explain the problem that needs solving. Keep background out of this section
 (put it in an appendix). Assume the reader has no prior knowledge and avoid
 abbreviations. Link to any supporting material the reader may want.
 
-## Tenets (optional)
+## Tenets
 Principles or beliefs that align everyone on the critical questions, used to go
 back to first principles when making a design decision.
 
@@ -76,8 +76,7 @@ pros/cons table with columns like cost, scalability, ease of use, latency,
 maintainability, and community support helps compare options.
 
 ## Cost Analysis
-How much infrastructure cost the solution will generate. Optional for smaller
-problems, but generally worth calculating to choose the right solution. Plan for
+How much infrastructure cost the solution will generate. Plan for
 future growth.
 
 ## Failure Modes
@@ -101,7 +100,7 @@ What level of security is required and how is it achieved? Depends on what the
 system stores and handles.
 
 ## Testing and Observability
-### Testing (optional)
+### Testing
 Unit, integration, A/B, stress tests, and the tools used.
 
 ### Metrics and Alarms
@@ -110,7 +109,7 @@ Key metrics, dashboards, and the alarms tracking the SLAs.
 ## Concerns / Risks
 Main risks and concerns: external dependencies, resource shortage, and so on.
 
-## Future Improvements (optional)
+## Future Improvements
 Features users can expect in future releases, and what the timeline might look
 like.
 
@@ -118,7 +117,7 @@ like.
 Questions people ask regularly, or that you anticipate. Fine to leave blank
 until questions appear.
 
-## Appendix A: <subtitle> (optional)
+## Appendix A: <subtitle>
 Deep technical analysis, data, or investigation detail. Useful background not
 required reading for a review.
 
