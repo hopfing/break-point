@@ -31,7 +31,9 @@ Bind mounts of Windows paths cross the VM file-sharing layer and are slow
 for many small files; the data dir is opaque volume files either way, so
 browsability is not lost. Cost: a Docker Desktop reset wipes the volume.
 Raw data is also kept as plain files under M:\mvp-data\raw until a backup
-routine for the store exists.
+routine for the store exists. Docker Desktop's virtual disk limit is set
+below M:'s free space so the VM cannot outgrow the drive, and the store
+itself is capped at 500 x 1 GB volumes (`-volume.max=500` in compose).
 
 ## Revisit when
 - Write/read throughput on the first large load is unacceptable.
